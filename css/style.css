@@ -145,6 +145,7 @@ nav a:focus {
 
 #articles li:nth-child(odd) {
     background-color: #f1aeae;
+   
 }
 
 #articles li:nth-child(even) {
@@ -265,6 +266,7 @@ tr:nth-child(odd) { background-color: #ffffff; }
     margin-bottom: 10px;
     border-radius: 10px;
     width: 300px;
+    margin: 0%;
 }
 
 
@@ -275,6 +277,9 @@ tr:nth-child(odd) { background-color: #ffffff; }
     border-radius: 8px;
     font-size: 16px;
     box-sizing: border-box;
+    margin-bottom: 10px;
+    
+    
 }
 
 #contact-form input[type="date"]{
@@ -284,6 +289,34 @@ tr:nth-child(odd) { background-color: #ffffff; }
     border-radius: 8px;
     font-size: 16px;
     box-sizing: border-box;
+    margin-bottom: 10px;
+    
+    
+}
+
+#contact-form input[type="email"]{
+    width: 50%;
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+    
+}
+
+#contact-form [type="topic"]{
+    width: 50%;
+    padding: 2px;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #db7272;
+    
+    
 }
 
 #contact-form {
@@ -292,8 +325,11 @@ tr:nth-child(odd) { background-color: #ffffff; }
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
-    font-family: Arial, sans-serif;
     }
+
+    
+
+    
 
 
 

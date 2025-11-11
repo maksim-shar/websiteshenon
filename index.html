@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Клод Шеннон</title>
+    <title>Главная страница</title>
+    <meta name="keywords" content="клод шеннон, главная информация">
+    <meta name="description" content="основная ифнормация сайта с переходами по другим страницам">
+    <link rel="img" href="img/favicon (1).ico" sizes="16x16" href="img/favicon (1).ico">
+<meta property="og:title" content="главная страница">
+<meta property="og:site_name" content="Клод Шеннон">
+<meta property="og:url" content="http://127.0.0.1:5500/index.html#about">
+<meta property="og:description" content="сайт про клода шеннона">
+<meta property="og:image" content="https://site.ru/img/share.img">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
@@ -52,7 +60,7 @@
             <form id="contact-form" action="">
                 <div class="form_item">
                     <label for="topic"></label>
-                    <select name="topic" id="topic" required>
+                    <select name="topic" id="topic" required type="topic">
                         <option value="1">Заказать услугу</option>
                         <option value="2">Оставить отзыв</option>
                         <option value="3">Предложить сотрудничество</option>
@@ -65,7 +73,7 @@
                 </div>
                 <div class="form_item">
                     <label for="email">Email</label><br>
-                    <input name="email" id="email" type="text" placeholder="Введите email" required>
+                    <input name="email" id="email" type="email" placeholder="Введите email" required>
                 </div>
                 <div class="form__item">
                     <label for="phone">Телефон</label><br>
@@ -74,14 +82,14 @@
                 </div>
                 <div class="form__item">
                     <label for="visit-date">Дата обращения</label><br>
-                    <input type="date" id="visit-date" name="visit-date" required>
+                    <input type="date" id="visit-date" name="date" required>
                 </div>
                 <div class="form_item">
                     <label for="comment">Текст сообщения</label><br>
                     <textarea name="comment" id="comment" rows="10" cols="60" placeholder="Введите текст" required></textarea><br>
                 </div>
                 <div class="checkbox-item">
-                    <input type="checkbox" id="checkbox" name="checkbox" required>
+                    <input type="checkbox" id="privacy" name="checkbox" required>
                     <label for="privacy" class="required">Я согласен с политикой конфиденциальности и обработкой персональных данных</label>
                 </div>
                 
