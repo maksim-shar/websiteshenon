@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клод Шеннон</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Клод Шеннон</h1>
+        <img src="img/apple.svg" alt="логотип" width="80px">
+        <nav>
+            <ul>
+                <li><a href="#about">Введение</a></li>
+                <li><a href="#articles">Информация</a></li>
+                <li><a href="#contact">Обратная связь</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="about">
+            <h2>Введение</h2>
+            <a href="img/house-solid-full.svg" download>
+                <img src="img/clodshenon.png" alt="клодшенон" width="200px">
+            </a>
+            <p>Клод Э́лвуд Ше́ннон (англ. Claude Elwood Shannon; 30 апреля 1916, Петоски, Мичиган, США — 24 февраля 2001, Медфорд, Массачусетс, США) — американский инженер, криптоаналитик и математик. Считается «отцом информационного века».
+
+Является основателем теории информации, нашедшей применение в современных высокотехнологических системах связи. Предоставил фундаментальные понятия, идеи и их математические формулировки, которые в настоящее время формируют основу для современных коммуникационных технологий. В 1948 году предложил использовать слово «бит» для обозначения наименьшей единицы информации (в статье «Математическая теория связи»). Кроме того, понятие энтропии было важной особенностью теории Шеннона. Он продемонстрировал, что введённая им энтропия эквивалентна мере неопределённости информации в передаваемом сообщении. Статьи Шеннона «Математическая теория связи» и «Теория связи в секретных системах» считаются основополагающими для теории информации и криптографии. Клод Шеннон был одним из первых, кто подошёл к криптографии с научной точки зрения, он первым сформулировал её теоретические основы и ввёл в рассмотрение многие основные понятия. Шеннон внёс ключевой вклад в теорию вероятностных схем, теорию игр, теорию автоматов и теорию систем управления — области наук, входящие в понятие «кибернетика».</p>
+            <em><q>Мы знаем прошлое, но не можем его контролировать. Мы контролируем будущее, но не можем его знать</q> <cite>Клод Шеннон</cite></em>
+        </section>
+        <section id="articles">
+            <h2>Информация</h2>
+            <ol type="I">
+                <li><a href="biography1.html">Биография</a></li>
+                <li><a href="achievements2.html">Основные достижения</a></li>
+                <li><a href="facts3.html">Интересные факты</a></li>
+                <li class="metka"><a href="listofterms4.html">Список терминов</a></li>
+            </ol>
+        </section>
+        <section id="contact">
+            <h2>Обратная связь</h2>
+            <form id="contact-form" action="">
+                <div class="form_item">
+                    <label for="topic"></label>
+                    <select name="topic" id="topic" required>
+                        <option value="1">Заказать услугу</option>
+                        <option value="2">Оставить отзыв</option>
+                        <option value="3">Предложить сотрудничество</option>
+                        <option value="4">Другое</option>
+                    </select>
+                </div>
+                <div class="form_item">
+                    <label for="name">Имя</label><br>
+                    <input name="name" id="name" type="text" placeholder="Введите имя" required>
+                </div>
+                <div class="form_item">
+                    <label for="email">Email</label><br>
+                    <input name="email" id="email" type="text" placeholder="Введите email" required>
+                </div>
+                <div class="form__item">
+                    <label for="phone">Телефон</label><br>
+                    <input type="tel" id="phone" name="phone" 
+               placeholder="+7 (999) 999-99-99" required>
+                </div>
+                <div class="form__item">
+                    <label for="visit-date">Дата обращения</label><br>
+                    <input type="date" id="visit-date" name="visit-date" required>
+                </div>
+                <div class="form_item">
+                    <label for="comment">Текст сообщения</label><br>
+                    <textarea name="comment" id="comment" rows="10" cols="60" placeholder="Введите текст" required></textarea><br>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="checkbox" name="checkbox" required>
+                    <label for="privacy" class="required">Я согласен с политикой конфиденциальности и обработкой персональных данных</label>
+                </div>
+                
+                <div class="form_item">
+                    <input type="submit">
+                </div>
+                
+
+
+
+            </form>
+
+        </section>
+            
+    </main>
+    <footer>
+        <a href="https://midis.ru/specialities/web-dizayn-i-mobilnaya-razrabotka/" target="_blank">
+            &copy;Шаранов Максим
+        </a>
+        
+        <p><a href="tel:+79236784534">+79236784534</a></p>
+        <p><a href="mailto:sharik.m@mail.ru">sharik.m@mail.ru</a></p>
+        <a href="https://vk.com/makskrutoi22" target="_blank">            
+            <img src="img/free-icon-vk-145813.png" alt="вк" width="50">
+        </a>
+        <a href="https://t.me/maskimakka" target="_blank">
+            <img src="img/free-icon-telegram-5968804.png" alt="вк" width="50">
+        </a>
+        
+    </footer>
+    
+</body>
+</html>
